@@ -2,7 +2,7 @@
 const button = document.getElementById('colorButton');
 const title = document.getElementById('title');
 
-// När knappen klickas, ändra färgen på rubriken
+// När knappen klickas, ändras färgen på rubriken
 button.addEventListener('click', function() {
     title.style.color = title.style.color === 'blue' ? 'green' : 'blue';
 });
